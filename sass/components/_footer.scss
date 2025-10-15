@@ -1,0 +1,10 @@
+@use "../base/variable" as *;
+@use "../base/font" as *;
+
+
+.attribution { 
+    font-size: 0.7rem; 
+    text-align: center;
+    a{ 
+        color: hsl(228, 45%, 44%); } 
+}
