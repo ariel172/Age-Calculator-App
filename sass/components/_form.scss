@@ -1,2 +1,37 @@
 @use "../base/variable" as *;
 @use "../base/font" as *;
+
+
+.date{
+    &__input{
+        font-size: $FontSize/1.1;
+        width: $Width;
+        font-weight: 700;
+        height: $height;
+        margin-left: $FontSize/7;
+        text-align: center;
+        border-radius: $FontSize/10;
+        border: solid $Grey-200;
+    }
+
+    &__label{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: $Grey-500;
+        font-weight: 700;
+        font-size: $FontSize/2;
+    }
+}
+
+label{
+    margin-bottom: $FontSize/10;
+}
+
+::placeholder{
+    font-size: $FontSize/3;
+}
+
+form{
+    margin-bottom: $FontSize;
+}

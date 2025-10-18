@@ -1,0 +1,24 @@
+@use "../base/variable" as *;
+@use "../base/font" as *;
+
+
+.separation{
+    &__img{
+        background-color: $Purple-500;
+        padding: $FontSize/10;
+        border-radius: $FontSize;
+        position: relative;
+        top: -1.5em;
+        bottom: 0;
+        right: 0;
+        left: 8em;
+    }
+
+    &__hr{
+        width: $FontSize*10;
+        margin-top: $FontSize;
+        border: none;
+        background-color: $Grey-200;
+        height: 2px;
+    }
+}

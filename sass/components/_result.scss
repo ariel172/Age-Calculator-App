@@ -1,0 +1,13 @@
+@use '../base/font' as *;
+@use '../base/variable' as *;
+
+.result{
+    font-size: $FontSize*1.2;
+    font-weight: 900;
+    color: $Black;
+    font-style: oblique;
+    
+    &__number{
+        color: $Purple-500;
+    }
+}

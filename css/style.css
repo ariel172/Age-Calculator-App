@@ -12,7 +12,16 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  box-sizing: border-box;
+  background-color: hsl(0, 0%, 86%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  background-color: hsl(0, 100%, 100%);
+  padding: 1em;
+  border-radius: 1em 1em 5em 1em;
 }
 
 .attribution {
@@ -20,7 +29,66 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(259, 100%, 65%);
+}
+
+.date__input {
+  font-size: 1.8181818182em;
+  width: 3em;
+  font-weight: 700;
+  height: 2em;
+  margin-left: 0.2857142857em;
+  text-align: center;
+  border-radius: 0.2em;
+  border: solid hsl(0, 0%, 86%);
+}
+.date__label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: hsl(0, 1%, 44%);
+  font-weight: 700;
+  font-size: 1em;
+}
+
+label {
+  margin-bottom: 0.2em;
+}
+
+::placeholder {
+  font-size: 0.6666666667em;
+}
+
+form {
+  margin-bottom: 2em;
+}
+
+.result {
+  font-size: 2.4em;
+  font-weight: 900;
+  color: hsl(0, 0%, 0%);
+  font-style: oblique;
+}
+.result__number {
+  color: hsl(259, 100%, 65%);
+}
+
+.separation__img {
+  background-color: hsl(259, 100%, 65%);
+  padding: 0.2em;
+  border-radius: 2em;
+  position: relative;
+  top: -1.5em;
+  bottom: 0;
+  right: 0;
+  left: 8em;
+}
+.separation__hr {
+  width: 20em;
+  margin-top: 2em;
+  border: none;
+  background-color: hsl(0, 0%, 86%);
+  height: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
