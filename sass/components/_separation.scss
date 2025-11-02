@@ -22,3 +22,19 @@
         height: 2px;
     }
 }
+
+/* Version écran Desktop separation*/
+@media (min-width: 1024px) {
+    .separation{
+        &__hr{
+            width: $FontSize*20;
+        }
+        &__img{
+            top: -3em;
+            left: 40em;
+            height: 5em;
+            width: 5em;
+            border-radius: $FontSize*2;
+        }
+    }
+}

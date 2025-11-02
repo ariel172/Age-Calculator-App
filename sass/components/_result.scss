@@ -11,3 +11,11 @@
         color: $Purple-500;
     }
 }
+
+/*Version Desktop result*/
+@media (min-width: 1024px) {
+    .result{
+        font-size: $FontSize*2;
+        margin: -0.7em 0 -0.7em 0;
+    }
+}
